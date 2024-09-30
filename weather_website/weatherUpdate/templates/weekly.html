@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/weekly.css' %}">
+<div class="weeklycss container">
+    <br>
+    <div class="text-title1 jumbotron">
+        <h1><strong>Weekly Weather for {{ city }}</strong></h1>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>{{ day2 }}</strong></div>
+                <div class="panel-body"><strong>Forecast: </strong>{{ day2_fore }}<br><strong>High: </strong>{{ day2_high }}&deg;F<br><strong>Low:</strong> {{ day2_low }}&deg;F</div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>{{ day3 }}</strong></div>
+                <div class="panel-body"><strong>Forecast: </strong>{{ day3_fore }}<br><strong>High: </strong>{{ day3_high }}&deg;F<br><strong>Low:</strong> {{ day3_low }}&deg;F</div></div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>{{ day4 }}</strong></div>
+                <div class="panel-body"><strong>Forecast: </strong>{{ day4_fore }}<br><strong>High: </strong>{{ day4_high }}&deg;F<br><strong>Low:</strong> {{ day4_low }}&deg;F</div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>{{ day5 }}</strong></div>
+                <div class="panel-body"><strong>Forecast: </strong>{{ day5_fore }}<br><strong>High: </strong>{{ day5_high }}&deg;F<br><strong>Low:</strong> {{ day5_low }}&deg;F</div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>{{ day6 }}</strong></div>
+                <div class="panel-body"><strong>Forecast: </strong>{{ day6_fore }}<br><strong>High: </strong>{{ day6_high }}&deg;F<br><strong>Low:</strong> {{ day6_low }}&deg;F</div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>{{ day7 }}</strong></div>
+                <div class="panel-body"><strong>Forecast: </strong>{{ day7_fore }}<br><strong>High: </strong>{{ day7_high }}&deg;F<br><strong>Low:</strong> {{ day7_low }}&deg;F</div>
+            </div>
+        </div>
+   
+{% endblock %}

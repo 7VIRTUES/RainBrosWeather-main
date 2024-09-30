@@ -1,0 +1,72 @@
+/* Account Info Page Styling */
+
+/* Container styling */
+.account-info .container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: #1a2226; /* Background color similar to login page */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  /* Info box styling */
+  .account-info .info-box {
+    background: #2c3e50; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    max-width: 600px; /* Maximum width of the info box */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Info title styling */
+  .account-info .info-title {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Add space below the title */
+    text-align: center; /* Center the title */
+  }
+  
+  /* Info details section styling */
+  .account-info .info-details p {
+    margin-bottom: 15px; /* Space between paragraphs */
+  }
+  
+  .account-info .info-details p strong {
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  /* Form and input field styling */
+  .account-info .form-control {
+    background-color: transparent; /* Transparent background for inputs */
+    color: white; /* White text color */
+    border: 1px solid #0db8de; /* Border color */
+    padding: 10px; /* Padding inside the inputs */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between inputs */
+  }
+  
+  .account-info .form-control:focus {
+    border-color: #27ef9f; /* Focus border color */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .account-info .btn-outline-secondary {
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text color */
+    border: 2px solid #0db8de; /* Border color */
+    padding: 10px 20px; /* Padding for buttons */
+    margin: 10px 0; /* Space between buttons */
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .account-info .btn-outline-secondary:hover {
+    background-color: #27ef9f; /* Change background color on hover */
+    color: white; /* Keep text white */
+    border-color: #27ef9f; /* Match border color to background */
+  }
+  
